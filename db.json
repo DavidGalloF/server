@@ -1,35 +1,79 @@
 {
-    "products":[
-        {
-            "id":1,
-            "nombre": "Papas",
-            "precio": "2500",
-            "descripcion": "Papa rellena de huevo, arroz y carne",
-            "categoryId": 1
-        },
-        {
-            "id":2,
-            "nombre": "Empanada mixta",
-            "precio": "2500",
-            "descripcion": "Empanada rellena de huevo, arroz y carne",
-            "categoryId": 1
-        },
-        {
-            "id":3,
-            "nombre": "Chocmelo",
-            "precio": "200",
-            "descripcion": "Malvabisco cubierto de chocolate",
-            "categoryId": 2
-        }
+    "users": [
+      {
+        "id": 1,
+        "name": "John Doeeeee",
+        "studentId": "2190064",
+        "email": "jhon@mail.com",
+        "phone": "1234567890",
+        "type": "Miembro",
+        "pcMac": "00:00:00:00:00:00",
+        "phoneMac": "00:00:00:00:00:00"
+      },
+      {
+        "id": 2,
+        "name": "Daniel Leon",
+        "studentId": "2190069",
+        "email": "daniellleonxd@gmail.com",
+        "phone": "315-299-4765",
+        "type": "Miembro",
+        "pcMac": "",
+        "phoneMac": ""
+      },
+      {
+        "id": 3,
+        "name": "Daviiiiiiiiid",
+        "studentId": "2190084",
+        "email": "gallo@correo.com",
+        "phone": "215-789-4517",
+        "type": "Miembro",
+        "pcMac": "",
+        "phoneMac": "UWU"
+      },
+      {
+        "id": 4,
+        "name": "Fernando",
+        "studentId": "21478956",
+        "email": "fernan@gmail.com",
+        "phone": "154-789-4563",
+        "type": "Afiliado",
+        "pcMac": "",
+        "phoneMac": ""
+      }
     ],
-    "categories":[
-        {
-            "id":1,
-            "nombre": "Fritos"
-        },
-        {
-            "id":2,
-            "nombre": "Dulces"
-        }
+    "schedule": [
+      {
+        "id": 1,
+        "title": "Event 1",
+        "start": "2023-02-12T09:00:00",
+        "end": "2023-02-12T10:00:00",
+        "name": "John Doe"
+      }
+    ],
+    "events": [
+      {
+        "id": 2,
+        "title": "Torneo de Clash 1",
+        "desc": "TORNEITO RICOOOOOOOOOOOOOO",
+        "start": "2023-02-14T05:00:00.000Z",
+        "end": "2023-02-21T05:00:00.000Z"
+      }
+    ],
+    "news": [
+      {
+        "id": 3,
+        "title": "afaga os",
+        "desc": "afcaga",
+        "section": "Talleres",
+        "date": "2023-02-16T03:03:50.526Z"
+      }
+    ],
+    "products": [
+      {
+        "id": 2,
+        "name": "Gansito",
+        "type": "Enpaquetados",
+        "price": 3000
+      }
     ]
-}
+  }

@@ -1,0 +1,35 @@
+{
+    "products":[
+        {
+            "id":1,
+            "nombre": "Papas",
+            "precio": "2500",
+            "descripcion": "Papa rellena de huevo, arroz y carne",
+            "categoryId": 1
+        },
+        {
+            "id":2,
+            "nombre": "Empanada mixta",
+            "precio": "2500",
+            "descripcion": "Empanada rellena de huevo, arroz y carne",
+            "categoryId": 1
+        },
+        {
+            "id":3,
+            "nombre": "Chocmelo",
+            "precio": "200",
+            "descripcion": "Malvabisco cubierto de chocolate",
+            "categoryId": 2
+        }
+    ],
+    "categories":[
+        {
+            "id":1,
+            "nombre": "Fritos"
+        },
+        {
+            "id":2,
+            "nombre": "Dulces"
+        }
+    ]
+}
